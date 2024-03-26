@@ -3,7 +3,7 @@ print ("Welcome!")
 print ("Calculate the Area and Circumference of a Circle")
 print ("What is the diameter of the circle?")
 diameter = input()
-if diameter.isdigit == True:
+
   d = float(diameter)
   if d < 0:
     print ("Error")
