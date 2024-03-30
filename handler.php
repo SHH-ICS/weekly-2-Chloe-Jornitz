@@ -16,7 +16,7 @@
         <header class = "mdl-layout__header">
           <div class = "mdl-layout__header-row">
             <!-- Title -->
-            <span class = "mdl-layout-title">Results</span>
+            <span class = "mdl-layout-title">Circle Area and Circumference Calculator</span>
         </header>
 
         <div class = "mdl-layout__drawer">
@@ -48,7 +48,7 @@
     else {
       echo "<h1><center><font color='darkgreen'> Error! </font color='darkgreen'></center></h1>";
       echo "<h3><center><font color='green'> The diameter you input was either negative or not a number. </font color='limegreen'></center></h3>";
-      echo "<h3><center><font color='green'> Try again and make sure to only include positive numbers and not to include letters or units. </font color='limegreen'></center></h3>";
+      echo "<h3><center><font color='green'> Make sure to only include positive numbers and not to include letters or units. </font color='limegreen'></center></h3>";
     }
     ?>
     </div>
