@@ -34,9 +34,9 @@
     settype($diameter, "float");
     if ($diameter >= 0)
     {
-    $radius = diameter/2;
+    $radius = $diameter/2;
     $area = M_PI*radius**2;
-    $circumference = M_PI*diameter;
+    $circumference = M_PI*$diameter;
     echo "The area of the circle is:";
     echo $area;
     echo "The circumference of the circle is:";
