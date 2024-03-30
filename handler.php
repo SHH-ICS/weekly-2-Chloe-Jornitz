@@ -13,10 +13,18 @@
     $diameter = "";
     if ( isset( $_POST['diameter'] ) ){
       $diameter = $_POST['diameter'];
+      $radius = diameter/2;
+      $area = M_PI*radius**2;
+      $circumference = M_PI*diameter;
     }
-    $radius = diameter/2
-    echo "<h1>My Program</h1>\n";
-    echo "<p>My Variable is = ".$myVariable."</p>\n";
+    ?>
+    }
+    try {
+      settype($diameter, "float");
+    }
+    catch (exception $letter) {
+
+    }
     ?>
     
   </body>
