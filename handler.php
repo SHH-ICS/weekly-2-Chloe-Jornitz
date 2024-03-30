@@ -44,11 +44,15 @@
     echo "<h3><center><font color='green'> The circumference of the circle is: </font color='green'></center></h3>";
     echo "<br>";
     echo "<h3><center><font color='limegreen'>". $circumference ."</font color='limegreen'></center></h3>";
+    echo "<br>";
+    echo ("<center><button onclick=\"location.href='index.html'\" style=\"height: 1.8em; width: 10em; font-size: 16px; background-color: limegreen;\">Try Again</button></center>");
     }
     else {
       echo "<h1><center><font color='darkgreen'> Error! </font color='darkgreen'></center></h1>";
       echo "<h3><center><font color='green'> The diameter you input was either negative or not a number. </font color='limegreen'></center></h3>";
       echo "<h3><center><font color='green'> Make sure to only include positive numbers and not to include letters or units. </font color='limegreen'></center></h3>";
+      echo "<br>";
+      echo ("<center><button onclick=\"location.href='index.html'\" style=\"height: 1.8em; width: 10em; font-size: 16px; background-color: limegreen;\">Try Again</button></center>");
     }
     ?>
     </div>
