@@ -30,29 +30,29 @@
     if ( isset( $_POST['diameter'] ) ){
       $diameter = $_POST['diameter'];
     }
-    try {
-      settype($diameter, "float");
-      if ($diameter >= 0)
-      {
-      $radius = diameter/2;
-      $area = M_PI*radius**2;
-      $circumference = M_PI*diameter;
-      echo "The area of the circle is:";
-      echo $area;
-      echo "The circumference of the circle is:";
-      echo $circumference;
-      }
-      else {
-        echo "Error!";
-        echo "The diameter you input was either negative or not a number.";
-        echo "Try again and make sure to only include positive numbers and not to include letters or units.";
-      }
+    
+    settype($diameter, "float");
+    if ($diameter >= 0)
+    {
+    $radius = diameter/2;
+    $area = M_PI*radius**2;
+    $circumference = M_PI*diameter;
+    echo "The area of the circle is:";
+    echo $area;
+    echo "The circumference of the circle is:";
+    echo $circumference;
     }
-    catch (exception $letter) {
+    else {
       echo "Error!";
       echo "The diameter you input was either negative or not a number.";
       echo "Try again and make sure to only include positive numbers and not to include letters or units.";
     }
+    
+  
+      #echo "Error!";
+      #echo "The diameter you input was either negative or not a number.";
+      #echo "Try again and make sure to only include positive numbers and not to include letters or units.";
+
     ?>
     </div>
   </body>
