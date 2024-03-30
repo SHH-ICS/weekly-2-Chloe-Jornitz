@@ -10,10 +10,11 @@
   <body>
     
     <?php
-    $myVariable = "";
-    if ( isset( $_POST['myVariable'] ) ){
-      $myVariable = $_POST['myVariable'];
+    $diameter = "";
+    if ( isset( $_POST['diameter'] ) ){
+      $diameter = $_POST['diameter'];
     }
+    $radius = diameter/2
     echo "<h1>My Program</h1>\n";
     echo "<p>My Variable is = ".$myVariable."</p>\n";
     ?>
