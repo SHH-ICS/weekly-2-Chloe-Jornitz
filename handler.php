@@ -37,13 +37,13 @@
     $radius = $diameter/2;
     $area = M_PI*$radius**2;
     $circumference = M_PI*$diameter;
-    echo "The area of the circle is:";
+    echo "<h4><center>The area of the circle is:</center></h4>";
     echo "<br>";
-    echo $area;
+    echo "<h3><center>". $area ."</center></h3>";
     echo "<br>";
-    echo "The circumference of the circle is:";
+    echo "<h4><center>The circumference of the circle is:</center></h4>";
     echo "<br>";
-    echo $circumference;
+    echo "<h3><center>". $circumference ."</center></h3>";
     }
     else {
       echo "Error!";
