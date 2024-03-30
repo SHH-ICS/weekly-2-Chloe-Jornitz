@@ -29,8 +29,7 @@
     $diameter = "";
     if ( isset( $_POST['diameter'] ) ){
       $diameter = $_POST['diameter'];
-    }
-    
+    }  
     if ($diameter >= 0 && is_numeric($diameter))
     {
     $radius = $diameter/2;
@@ -56,6 +55,5 @@
     }
     ?>
     </div>
-  </body>
-  
+  </body>  
 </html>
