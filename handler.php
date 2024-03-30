@@ -13,14 +13,12 @@
     $diameter = "";
     if ( isset( $_POST['diameter'] ) ){
       $diameter = $_POST['diameter'];
-      $radius = diameter/2;
-      $area = M_PI*radius**2;
-      $circumference = M_PI*diameter;
-    }
-    ?>
     }
     try {
       settype($diameter, "float");
+      $radius = diameter/2;
+      $area = M_PI*radius**2;
+      $circumference = M_PI*diameter;
     }
     catch (exception $letter) {
 
