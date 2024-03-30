@@ -46,9 +46,9 @@
     echo "<h3><center><font color='limegreen'>". $circumference ."</font color='limegreen'></center></h3>";
     }
     else {
-      echo "Error!";
-      echo "The diameter you input was either negative or not a number.";
-      echo "Try again and make sure to only include positive numbers and not to include letters or units.";
+      echo "<h1><center><font color='darkgreen'> Error! </font color='darkgreen'></center></h1>";
+      echo "<h3><center><font color='forestgreen'> The diameter you input was either negative or not a number. </font color='limegreen'></center></h3>";
+      echo "<h3><center><font color='forestgreen'> Try again and make sure to only include positive numbers and not to include letters or units. </font color='limegreen'></center></h3>";
     }
     
   
