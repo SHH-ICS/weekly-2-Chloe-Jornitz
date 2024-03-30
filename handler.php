@@ -36,18 +36,19 @@
     $radius = $diameter/2;
     $area = M_PI*$radius**2;
     $circumference = M_PI*$diameter;
-    echo "<h3><center><font color='darkgreen'> The area of the circle is: </font color='darkgreen'></center></h3>";
+    echo "<h1><center><font color='darkgreen'> Results: </h1></center></font color='darkgreen'>";
+    echo "<h3><center><font color='green'> The area of the circle is: </font color='green'></center></h3>";
     echo "<br>";
     echo "<h3><center><font color='limegreen'>". $area ."</font color='limegreen'></center></h3>";
     echo "<br>";
-    echo "<h3><center><font color='darkgreen'> The circumference of the circle is: </font color='darkgreen'></center></h3>";
+    echo "<h3><center><font color='green'> The circumference of the circle is: </font color='green'></center></h3>";
     echo "<br>";
     echo "<h3><center><font color='limegreen'>". $circumference ."</font color='limegreen'></center></h3>";
     }
     else {
       echo "<h1><center><font color='darkgreen'> Error! </font color='darkgreen'></center></h1>";
-      echo "<h3><center><font color='forestgreen'> The diameter you input was either negative or not a number. </font color='limegreen'></center></h3>";
-      echo "<h3><center><font color='forestgreen'> Try again and make sure to only include positive numbers and not to include letters or units. </font color='limegreen'></center></h3>";
+      echo "<h3><center><font color='green'> The diameter you input was either negative or not a number. </font color='limegreen'></center></h3>";
+      echo "<h3><center><font color='green'> Try again and make sure to only include positive numbers and not to include letters or units. </font color='limegreen'></center></h3>";
     }
     ?>
     </div>
