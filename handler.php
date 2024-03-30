@@ -31,7 +31,7 @@
       $diameter = $_POST['diameter'];
     }
     
-    if ($diameter >= 0&&is_numeric($diameter))
+    if ($diameter >= 0 && is_numeric($diameter))
     {
     $radius = $diameter/2;
     $area = M_PI*$radius**2;
